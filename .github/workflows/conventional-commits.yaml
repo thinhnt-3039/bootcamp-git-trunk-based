@@ -1,5 +1,4 @@
-
-name: Conventional Commits
+name: conventional commits
 
 on:
   push:
@@ -9,7 +8,7 @@ on:
 
 jobs:
   commitlint:
-    name: Conventional Commits
+    name: commitlint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
