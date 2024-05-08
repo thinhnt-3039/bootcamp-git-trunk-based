@@ -8,7 +8,9 @@ This repository is used for training purposes about `Trunk-based Development` wo
 ```bash
 git checkout -b feature/new-feature main
 ```
-2. Work on the short-lived feature branch (< 2 days) & few file changes
+2. Work on the short-lived feature branch **(< 2 days) & few file changes**.
+- Add feature flags for incompleted feature.
+- Make sure the source is releasable (with both cases: the feature flag enabled & disabled).
 3. Merge the feature branch into the `main` branch
 ```bash
 git checkout main
